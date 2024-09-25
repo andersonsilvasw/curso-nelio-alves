@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class entradaDeDados {
+public class entradaDeDados01 {
 
     public static void main(String[] args) {
 
@@ -20,5 +20,6 @@ public class entradaDeDados {
         System.out.printf("Tudo bem %s, então só confirmando você tem %d anos, sexo: %s, " +
                 "e peso de " + peso + "KG, agora que temos seus dados iremos elaborar seu plano."
                 , nome, idade, sexo);
+        sc.close();
     }
 }
