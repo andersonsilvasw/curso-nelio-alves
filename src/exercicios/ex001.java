@@ -1,4 +1,4 @@
-package estruturaSequencial;
+package exercicios;
 
 import java.util.Locale;
 
