@@ -18,8 +18,8 @@ public class entradaDeDados01 {
         double peso = sc.nextDouble();
 
         System.out.printf("Tudo bem %s, então só confirmando você tem %d anos, sexo: %s, " +
-                "e peso de " + peso + "KG, agora que temos seus dados iremos elaborar seu plano."
-                , nome, idade, sexo);
+                "e peso de %.2f KG, agora que temos seus dados iremos elaborar seu plano."
+                , nome, idade, sexo, peso);
         sc.close();
     }
 }
